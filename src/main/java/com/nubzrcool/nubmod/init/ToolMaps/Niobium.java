@@ -1,25 +1,22 @@
-package com.nubzrcool.nubmod.init;
+package com.nubzrcool.nubmod.init.ToolMaps;
 
 import com.google.common.base.Supplier;
+import com.nubzrcool.nubmod.init.NiobiumItems;
 
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
-public class BaseToolMap implements Tier {
+public class Niobium implements Tier {
 
-	
-	private final float attackDamageBonus, speed;
-    private final int enchantability, harvestLevel, durability;
-    private final Supplier<Ingredient> repairMaterial;
+	private float attackDamageBonus = 9.0f;
+	private float speed = 15;
+    private int enchantability = 20;
+    private int harvestLevel = 7;
+    private int durability = 2000;
+    private Supplier<Ingredient> repairMaterial = () -> Ingredient.of(NiobiumItems.NIOBIUM.get());
 
-    public BaseToolMap(float attackDamageBonus, int enchantability, int harvestLevel, float speed,
-            int durability, Supplier<Ingredient> repairMaterial) {
+    public Niobium(float attackDamageBonus) {
         this.attackDamageBonus = attackDamageBonus;
-        this.enchantability = enchantability;
-        this.harvestLevel = harvestLevel;
-        this.speed = speed;
-        this.durability = durability;
-        this.repairMaterial = repairMaterial;
     }
 
     @Override
@@ -51,5 +48,5 @@ public class BaseToolMap implements Tier {
     public int getUses() {
         return this.durability;
     }
-
+	
 }

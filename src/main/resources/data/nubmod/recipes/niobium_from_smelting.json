@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "nubmod:niobium_ore"
+  },
+  "result": "nubmod:niobium",
+  "experience": 0.9,
+  "cookingtime": 400
+}

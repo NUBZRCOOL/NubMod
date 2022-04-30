@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nubmod:niobium_block"
+    }
+  ],
+  "result": {
+    "item": "nubmod:niobium",
+    "count": 9
+  }
+}

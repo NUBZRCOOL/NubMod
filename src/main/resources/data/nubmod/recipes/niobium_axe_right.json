@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NN",
+    " SN",
+    " S "
+  ],
+  "key": {
+    "N": {
+      "item": "nubmod:niobium"
+    },
+    "S": {
+    	"item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "nubmod:niobium_axe"
+  }
+}

@@ -1,6 +1,18 @@
 {
+	"itemGroup.MEME": "Memes",
 	"item.nubmod.boring_item": "Boring Item",
-	"itemGroup.nubmod": "Nub Tab",
+	"item.nubmod.amazing_sword": "Amazing Sword",
 	"block.nubmod.troll_block": "Troll Block",
-	"item.nubmod.amazing_sword": "Amazing Sword"
+	
+	"itemGroup.Niobium": "Niobium",
+	"item.nubmod.niobium": "Niobium",
+	
+	"item.nubmod.niobium_sword": "Niobium Sword",
+	"item.nubmod.niobium_pickaxe": "Niobium Pickaxe",
+	"item.nubmod.niobium_axe": "Niobium Axe",
+	"item.nubmod.niobium_shovel": "Niobium Shovel",
+	"item.nubmod.niobium_hoe": "Niobium Hoe",
+	
+	"block.nubmod.niobium_block": "Niobium Block",
+	"block.nubmod.niobium_ore": "Niobium Ore"
 }
